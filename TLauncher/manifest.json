@@ -1,0 +1,13 @@
+{
+    "name": "選択されたテキストをログ表示する",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "選択されたテキストをログ表示する",
+    "content_scripts": [
+        {
+           "matches": [ "http://*/*", "https://*/*" ],
+           "css": ["style.css"],
+           "js": [ "jquery.js","content.js" ]
+        }
+    ]
+}
